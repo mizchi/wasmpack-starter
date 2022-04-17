@@ -18,13 +18,11 @@ importers:
 
   web:
     specifiers:
-      '@internal/wasm': ../wasm/pkg
-      '@internal/wasm-src': ../wasm
+      '@internal/wasm': ../wasm
       typescript: ^4.3.2
       vite: ^2.6.4
     dependencies:
-      '@internal/wasm': link:../wasm/pkg
-      '@internal/wasm-src': link:../wasm
+      '@internal/wasm': link:../wasm
     devDependencies:
       typescript: 4.6.3
       vite: 2.9.5

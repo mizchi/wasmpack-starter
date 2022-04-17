@@ -34,5 +34,7 @@ jobs:
         with:
           version: "latest" # "v0.9.1"
       - run: cargo check
+      - run: pnpm build
+        working-directory: wasm
       - run: pnpm install
       - run: pnpm build

@@ -9,6 +9,8 @@
 ## Develop
 
 ```
+# install wasm-pack
+# cargo install cargo-watch
 $ pnpm dev
 ```
 
