@@ -34,4 +34,5 @@ jobs:
         with:
           version: "latest" # "v0.9.1"
       - run: cargo check
+      - run: pnpm install
       - run: pnpm build
