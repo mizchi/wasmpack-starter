@@ -3,14 +3,13 @@
 ## Develop
 
 ```
-$ make setup
-$ make dev
+$ pnpm dev
 ```
 
 ## Build
 
 ```
-$ make build
+$ pnpm build
 ```
 
 ---
