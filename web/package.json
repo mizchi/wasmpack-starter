@@ -7,8 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@internal/wasm-src": "../wasm",
-    "@internal/wasm": "../wasm/pkg"
+    "@internal/wasm": "../wasm"
   },
   "devDependencies": {
     "typescript": "^4.3.2",
