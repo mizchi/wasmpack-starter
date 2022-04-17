@@ -1,5 +1,11 @@
 # wasmpack-starter
 
+## Arch
+
+- `logics`: pure rust logics
+- `wasm`: logics binding
+- `web`: vite app
+
 ## Develop
 
 ```
