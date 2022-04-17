@@ -1,4 +1,4 @@
-import init, {add} from "wasm";
+import init, {add} from "@internal/wasm";
 
 (async () => {
   await init();

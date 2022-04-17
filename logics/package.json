@@ -1,0 +1,7 @@
+{
+  "name": "@internal/logics",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cargo check"
+  }
+}

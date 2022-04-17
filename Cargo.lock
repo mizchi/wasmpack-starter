@@ -31,6 +31,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "internal_wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "logics",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "wee_alloc",
+]
+
+[[package]]
 name = "js-sys"
 version = "0.3.57"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -199,17 +210,6 @@ checksum = "a77c5a6f82cc6093a321ca5fb3dc9327fe51675d477b3799b4a9375bac3b7b4c"
 dependencies = [
  "proc-macro2",
  "quote",
-]
-
-[[package]]
-name = "wasmpack-starter"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "logics",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "wee_alloc",
 ]
 
 [[package]]

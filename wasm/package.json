@@ -1,0 +1,11 @@
+{
+  "name": "@internal/wasm-src",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wasm-pack build --target web --out-name mod --release",
+    "dev": "cargo watch -c -w src -s 'wasm-pack build --target web --out-name mod --dev'"
+  },
+  "dependencies": {
+    "@internal/logics": "*"
+  }
+}

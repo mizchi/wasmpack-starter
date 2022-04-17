@@ -12,12 +12,11 @@ extern {
 
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasmpack-starter!");
+    alert("Hello, wasmpack-starter");
 }
 
 #[wasm_bindgen]
 pub fn set_debug() {
-    // #[cfg(feature = "console_error_panic_hook")]
     #[cfg(feature = "console_error_panic_hook")]
     console_error_panic_hook::set_once();
 }

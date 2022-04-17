@@ -1,1 +1,5 @@
-web
+packages:
+  - web
+  - logics
+  - wasm
+  - wasm/pkg
